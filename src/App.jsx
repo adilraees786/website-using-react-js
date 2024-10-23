@@ -3,7 +3,7 @@ import Homepage from './screen/Homepage';
 import Signup from './screen/signup';
 import Signin from './screen/signin';
 import About from './screen/About'
-// import  Navbar from './components/Navbar';
+import  Navbar from './components/Navbar';
 
 
 
@@ -18,7 +18,7 @@ const router =createBrowserRouter([
   { path: "/signup", element: <Signup/>, },
   { path: "/signin", element: <Signin/>, },
   { path: "/about", element: <About/>, },
-  // { path: "/navbar", element: <Navbar/>, },
+  { path: "/navbar", element: <Navbar/>, },
 
 
 
