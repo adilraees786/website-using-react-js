@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 export default function(){
     return(
-        <div className='flex justify-center'>
+        <div>
+            <div>
+                <Navbar/>
+            </div>
             <h1>Homepage</h1>
         </div>
     )
