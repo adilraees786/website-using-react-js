@@ -41,7 +41,7 @@ const SignupPage = (props) => {
 
         })
 
-        navigate('/login')
+        navigate('/Signin')
       
          
     
