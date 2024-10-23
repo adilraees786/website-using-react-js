@@ -1,7 +1,9 @@
-// import React from 'react'
+import React from 'react'
 
-// export const Homepage = () => {
-//   return (
-//     <div>Homepage</div>
-//   )
-// }
+export default function(){
+    return(
+        <div>
+            <h1>Homepage</h1>
+        </div>
+    )
+}
