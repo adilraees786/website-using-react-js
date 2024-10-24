@@ -1,15 +1,41 @@
-import React from 'react'
+import React from 'react';
+import MenuCard from './Menucard';
 
-export default function Menu(){
-    return (
+function App() {
+  const menuItems = [
+    {
+      dishName: "Spaghetti Carbonara",
+      description: "Classic Italian pasta with creamy sauce and crispy pancetta.",
+      price: "12.99",
+      imgUrl: "https://source.unsplash.com/600x400/?pasta"
+    },
+    {
+      dishName: "Margherita Pizza",
+      description: "Wood-fired pizza with fresh tomatoes, mozzarella, and basil.",
+      price: "10.99",
+      imgUrl: "https://source.unsplash.com/600x400/?pizza"
+    },
+    {
+      dishName: "Caesar Salad",
+      description: "Fresh romaine lettuce, parmesan cheese, and Caesar dressing.",
+      price: "8.99",
+      imgUrl: "https://source.unsplash.com/600x400/?salad"
+    }
+  ];
 
-    <div className="menu">
-        <div className="menu__item menu__item--active">
-            <a href="#" className="menu__link">Home</a>
-            <a href="#" className="menu__link">About</a>
-            <a href="#" className="menu__link">Contact</a>
-        </div>
+  return (
+    <div className="bg-gray-100 min-h-screen flex flex-wrap justify-center items-center p-10">
+      {menuItems.map((item, index) => (
+        <MenuCard
+          key={index}
+          dishName={item.dishName}
+          description={item.description}
+          price={item.price}
+          imgUrl={item.imgUrl}
+        />
+      ))}
     </div>
-)
-
+  );
 }
+
+export default App;
