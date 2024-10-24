@@ -4,11 +4,13 @@ import Signup from './screen/signup';
 import Signin from './screen/signin';
 import About from './screen/About'
 import  Navbar from './components/Navbar';
+import  Menu  from './screen/Menu';
 
 
 
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 
 
 
@@ -19,6 +21,7 @@ const router =createBrowserRouter([
   { path: "/signin", element: <Signin/>, },
   { path: "/about", element: <About/>, },
   { path: "/navbar", element: <Navbar/>, },
+  { path: "/menu", element: <Menu/>, },
 
 
 
