@@ -5,6 +5,7 @@ import Signin from './screen/signin';
 import About from './screen/About'
 import  Navbar from './components/Navbar';
 import  Menu  from './screen/Menu';
+import  Menucard  from './screen/Menucard';
 
 
 
@@ -22,6 +23,7 @@ const router =createBrowserRouter([
   { path: "/about", element: <About/>, },
   { path: "/navbar", element: <Navbar/>, },
   { path: "/menu", element: <Menu/>, },
+  { path: "/menucard", element: <Menucard/>, },
 
 
 
