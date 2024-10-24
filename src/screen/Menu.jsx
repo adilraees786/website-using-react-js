@@ -7,7 +7,7 @@ function App() {
       dishName: "Spaghetti Carbonara",
       description: "Classic Italian pasta with creamy sauce and crispy pancetta.",
       price: "12.99",
-      imgUrl: "https://source.unsplash.com/600x400/?pasta"
+      imgUrl: "https://media.istockphoto.com/id/177413384/photo/pasta-with-carbonara.jpg?s=1024x1024&w=is&k=20&c=5ZRLITJjvwm0aEV6ynpdnJrjDmlraH-PD9mleSts6sQ="
     },
     {
       dishName: "Margherita Pizza",
